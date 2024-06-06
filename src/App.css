@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.card h1 {
+  width: 100%;
+  text-align: center;
+}
+
+.decrease-button {
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.increase-button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: green;
+  border: 0;
+  color: white;
+  margin-top: 10px;
+  margin-right: 10px;
+}
